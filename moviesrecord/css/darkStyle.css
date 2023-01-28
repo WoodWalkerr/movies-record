@@ -1,0 +1,42 @@
+/* dark table styles */
+/*Add the necessary styling to make it simlar to the given table*/
+
+
+table.dark {
+	border: 1px solid #1a1a1a;
+	font-family: Arial, Helvetica, sans-serif;
+	border-collapse: collapse;
+	margin: 0;
+	padding: 0;
+
+}
+
+table.dark thead th {
+	border-bottom: 1px solid #000;
+	text-align:left;
+	padding-left: 15px;
+	letter-spacing: 1.5px;
+	color: aliceblue;
+}
+
+table.dark tbody td {
+	border-right: 1px solid #1a1a1a;
+	color: aliceblue;
+	font-size: 17px;
+	background-image: linear-gradient(rgb(78, 77, 77), rgb(34, 33, 33));
+	padding: 15px;
+}
+
+table.dark tbody span {
+	color: gray;
+	font-size: 12px;
+}
+
+table.dark tbody td:last-child {
+	color: gray;
+	font-size: 12px;
+}
+
+table.dark thead th:last-child {
+	padding-right: 12px;
+}
